@@ -1,1 +1,4 @@
 *.env
+
+# Backups locais do PostgreSQL podem conter dados e credenciais criptografadas.
+backups/
