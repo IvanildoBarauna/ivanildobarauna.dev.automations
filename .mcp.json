@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--streamableHttp",
+        "https://n8n.ivanildobarauna.dev/mcp-server/http",
+        "--header",
+        "authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlZWNmNTk4Zi0yNjRkLTRkZjQtOGJhMS1hNWY4MDJkMjFhMjYiLCJpc3MiOiJuOG4iLCJhdWQiOiJtY3Atc2VydmVyLWFwaSIsImp0aSI6IjRlMDNlNjMyLWViZGYtNDQyYS1hMTA4LWJiNzUyNDY0ZjBjMCIsImlhdCI6MTc3MzkzMzYxOX0.6HWeSao6usPVtRb8ooR8aVwxSm8HVlHngHMHHpY_gX0"
+      ]
+    }
+  }
+}
